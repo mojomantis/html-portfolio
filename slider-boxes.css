@@ -1,0 +1,169 @@
+/* Scss Document */
+.pos-r {
+  position: relative !important;
+}
+
+.white {
+  background: none;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-gray {
+  color: #363636;
+}
+
+.testimonial {
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+      
+}
+
+.separator {
+  width: 14%;
+  height: 3px;
+  margin: 1.2em auto 1em;
+  /* background: #ffc53a; */
+}
+
+.one-slide {
+  border-radius: 3px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 25%;
+  height: auto;
+  position: relative;
+  /* border: 2px solid black; */
+  /* border: 1px solid green; */
+}
+
+.one-slide img {
+  width: 40%;
+}
+
+.carousel-controls .control {
+  position: absolute;
+  cursor: pointer;
+  top: 0%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-500%);
+  /* border: 1px solid green; */
+}
+
+.prev {
+  
+  right:12%;
+  
+  display: block;
+}
+.prev img.left{
+  width: 5vw;
+  
+}
+
+.next {
+ right: 6%;
+}
+
+.next img.right{
+  width: 5vw;
+}
+
+.card-image {
+  border-radius: 5px 5px 0 0;
+  opacity: 1;
+}
+
+.one-slide:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+}
+
+.card-inside-container {
+  /* padding: 2px 16px; */
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -25%;
+  width: 100%;
+  height: auto;
+  padding: 5% 0% 10% 5%;
+  opacity: 1;
+  background-color: #b5d653;
+  /* border: saddlebrown 5px solid; */
+  z-index: 1;
+  border-radius: 0 0 5px 5px;
+}
+
+.card-heading {
+  width: 100%;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.card-text {
+  width: 100%;
+  font-family: Montserrat;
+  font-size: 0.9rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.testimonial-carousel.slick-initialized {
+  display: block;
+}
+
+.testimonial-carousel .message {
+  width: 100%;
+  font-size: .9rem;
+}
+
+.testimonial-carousel .brand {
+  width: 100%;
+}
+
+/* SECTION 4 VIDEO GALLERY */
+
+
+@media (max-width: 575px) {
+  .testimonial-carousel .one-slide {
+    height: 350px;
+  }
+  .testimonial-carousel img {
+    width: 40%;
+  }
+}
+/*# sourceMappingURL=slider-boxes.css.map */

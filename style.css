@@ -1,0 +1,4043 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1920px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  /* border:1px dotted black; */
+  margin: 0 auto;
+  background-color: white;
+}
+#header {
+  width: 100%;
+  align-content: center;
+  padding-top: 2%;
+  padding-left: 5%;
+  /* padding-left: 4em; */
+  /* border: 1px dotted green; */
+}
+nav .img {
+  width: 100%;
+}
+
+nav {
+  margin: auto;
+  height: auto;
+  /* padding-top: 3rem; */
+}
+.Thelay-Waala-Logo-Variation-11-2 {
+  width: 10%;
+  min-width: 120px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 10vw;
+  align-items: center;
+  vertical-align: middle;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-top: 10%;
+  margin: 0 3em 0em 0em;
+}
+
+nav ul li a {
+  font-family: Montserrat;
+  font-size: 18px;
+
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2e2d35;
+  border-radius: 5px;
+}
+a:hover {
+  background: #adb8c0;
+  transition: 0.5s;
+}
+
+#main-container {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+#main-container #section-one-bg {
+  max-width: 1920px;
+  width: 100%;
+}
+
+/*  //////////////////////////////////////////Section-One-START/////////////////////////////////// --> */
+
+#main-container #section-text {
+  position: absolute;
+  height: auto;
+  width: 50%;
+  top: 10em;
+  left: 5%;
+  /* border: 1px solid green; */
+}
+.Thelewala-is-serving-fresh {
+  font-size: 3vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+#sectiontexttwodiv {
+  position: absolute;
+  width: 45%;
+  top: 22em;
+  left: 5%;
+}
+.sectiontexttwo {
+  font-size: 2vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+#main-container #playstoresdiv {
+  display: flex;
+  position: absolute;
+  align-items: center;
+
+  top: 43em;
+  width: 40vw;
+  left: 7%;
+  justify-content: center;
+  justify-content: space-between;
+  /* border:2px solid black; */
+}
+#or {
+  align-items: center;
+  font-size: 1vw;
+}
+.image-playstore {
+  width: 15vw;
+  height: 7.1em;
+  /* padding: 0 1%; */
+  margin: 0;
+  object-fit: contain;
+}
+
+.image-appstore {
+  width: 15vw;
+  /* padding: 0 1%; */
+  height: 7.1em;
+  margin: 0;
+  object-fit: contain;
+}
+
+/*  //////////////////////////////////////////Section-One-END/////////////////////////////////// --> */
+
+/*  //////////////////////////////////////////Section-Two-START/////////////////////////////////// --> */
+
+.section-two-div {
+  display: grid;
+
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  margin-top: 0rem;
+  position: relative;
+}
+
+/*  //////////////////////////////////////////Section-Two-COL1-START/////////////////////////////////// --> */
+
+.section-two-col1 {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+}
+.section-two-col1 img.left-image-full {
+  width: 100%;
+  top: 0;
+  left: -10%;
+}
+
+.section-two-col1 img.left-second-image {
+  width: 60%;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+/*  //////////////////////////////////////////Section-Two-COL1-END/////////////////////////////////// --> */
+
+/*  //////////////////////////////////////////Section-Two-COL2-START/////////////////////////////////// --> */
+.section-two-col2 {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+}
+
+.How-Thele-wala-works {
+  position: absolute;
+  margin-top: 30%;
+  width: 15em;
+  font-family: Montserrat;
+  font-size: 3vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+
+.Line-4 {
+  position: absolute;
+  top: 22%;
+  width: 10em;
+  height: auto;
+  margin: 4em 0em 0em 4em;
+
+  object-fit: contain;
+}
+
+#lorem-small-div {
+  position: absolute;
+  top: 30%;
+  left: 1%;
+}
+.lorem-small {
+  width: 7%;
+  height: auto;
+  margin: 2.22em 0em 0em 0em;
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7a839e;
+}
+
+.Group-1720 {
+  position: absolute;
+  top: 40%;
+  left: 1%;
+  width: 15%;
+  height: auto;
+  margin: 4.65em 3em 6.82em 0em;
+  object-fit: contain;
+}
+#create-div {
+  position: absolute;
+  top: 44%;
+  left: 15%;
+  /* border: black 2px solid; */
+}
+.Create-text {
+  width: 30em;
+  height: 3em;
+  margin: 4.44em 2.26em 2.7em 1em;
+  font-size: 2vw;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+#install-div {
+  position: absolute;
+  top: 49%;
+  left: 20%;
+  /* border: black 2px solid; */
+}
+.install-text {
+  width: 60em;
+  /* height: 7.89em; */
+
+  font-size: 1.4vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7a839e;
+}
+
+.Group-1721 {
+  position: absolute;
+  top: 54%;
+  left: 1%;
+  width: 15%;
+  height: auto;
+  margin: 4.65em 3em 6.82em 0em;
+  object-fit: contain;
+  /* border: 0.1rem solid black; */
+}
+#what-div {
+  position: absolute;
+  top: 58%;
+  left: 15%;
+  /* border: black 2px solid; */
+}
+.what-text {
+  width: 30em;
+  height: 3em;
+  margin: 4.44em 2.26em 2.7em 1em;
+  font-size: 2vw;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+#follow-div {
+  position: absolute;
+  top: 63%;
+  left: 20%;
+  /* border: black 2px solid; */
+}
+.follow-text {
+  width: 60em;
+  font-size: 1.4vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7a839e;
+}
+
+.Group-1722 {
+  position: absolute;
+  top: 68%;
+  left: 1%;
+  width: 15%;
+  margin: 4.65em 3em 6.82em 0em;
+  object-fit: contain;
+  /* border: 0.1rem solid black; */
+}
+#let-div {
+  position: absolute;
+  top: 72%;
+  left: 15%;
+  /* border: black 2px solid; */
+}
+.let-text {
+  width: 34em;
+  height: 3em;
+  font-size: 2vw;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+#decide-div {
+  position: absolute;
+  top: 78%;
+  left: 20%;
+  /* border: black 2px solid; */
+}
+.decide-text {
+  width: 60em;
+  font-size: 1.4vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7a839e;
+}
+
+/*//////////////////////////////////////////Section-Two-COL2-END//////////////////////////////////*/
+
+/*  //////////////////////////////////////////Section-Three-START/////////////////////////////////// --> */
+
+.Rectangle-5 {
+  position: relative;
+  width: 86%;
+  min-height: 2000px;
+  /* min-height: 1680px; */
+  /* min-height: 100vh; */
+  margin: 15em 7.5% 0 7.5%;
+
+  border-radius: 38px;
+  box-shadow: 0 0 40px 0 rgba(49, 169, 93, 0.2);
+  background-color: #fff;
+}
+
+.Rectangle-5 .heading-why-thele-wala-div {
+  position: absolute;
+  top: -10%;
+  width: 33%;
+  left: 35%;
+  text-align: center;
+  /* border: 1px solid green; */
+  /* border:3px dotted magenta; */
+}
+.heading-whythelewala {
+  font-family: Montserrat;
+  font-size: 3vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #2e2d35;
+}
+
+.Rectangle-5 .Group-1723-div {
+  position: absolute;
+  top: -20em;
+  left: 80%;
+  /* align-items: right; */
+  /* border: 1px solid green; */
+}
+
+.Group-1723 {
+  width: 100%;
+}
+
+.Rectangle-5 .path-div {
+  position: absolute;
+  width: 50%;
+  top: 35%;
+  right: -7%;
+  /* border: 1px solid green; */
+  
+}
+.Path-3888 {
+  width: 100%;
+}
+
+.Rectangle-5 .food-details-div {
+  position: absolute;
+  /* border: 1px dotted green; */
+  width: 30%;
+  left: 62%;
+  top: 25%;
+  /* border: 1px solid green; */
+}
+img.food-Details {
+  width: 100%;
+  object-fit: contain;
+  /* box-shadow: 0 3px 50px 0 rgba(0, 0, 0, 0.16); */
+}
+
+/* /////////////////////////////////////Section-Three-Icons with Heading and Text////////////////////////////////  */
+
+.Group-1710-div {
+  position: absolute;
+  /* min-width: em; */
+  top: 5%;
+  left: 43%;
+  width: 25%;
+}
+
+img.Group-1710 {
+  object-fit: contain;
+  padding-bottom: 1em;
+}
+
+.Group-1710-heading {
+  font-family: Montserrat;
+  font-size: 1.25vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.Group-1710-text {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.Group-15-div {
+  position: absolute;
+  left: 28.8%;
+  top: 15%;
+  width: 25%;
+}
+
+img.Group-15 {
+  padding-bottom: 1em;
+
+  object-fit: contain;
+}
+
+.khata-heading {
+  font-family: Montserrat;
+  font-size: 1.25vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.khata-text {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.Group-16-div {
+  position: absolute;
+  left: 7%;
+  top: 27%;
+  width: 25%;
+}
+
+img.Group-16 {
+  padding-bottom: 1em;
+  object-fit: contain;
+}
+
+.multiple-heading {
+  font-family: Montserrat;
+  font-size: 1.25vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.multiple-text {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.-Accounting-Business-Calculate-Finance-Math-div {
+  position: absolute;
+  left: 7%;
+  top: 45%;
+  width: 25%;
+}
+
+img.-Accounting-Business-Calculate-Finance-Math {
+  padding-bottom: 1em;
+  object-fit: contain;
+}
+
+.accounting-heading {
+  font-family: Montserrat;
+  font-size: 1.25vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.accounting-text {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.Layer-3-div {
+  position: absolute;
+  left: 20%;
+  top: 64%;
+  width: 25%;
+}
+
+img.Layer-3 {
+  padding-bottom: 1em;
+  object-fit: contain;
+}
+
+.online-heading {
+  font-family: Montserrat;
+  font-size: 1.25vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.online-text {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.Group-1711-div {
+  position: absolute;
+  left: 35%;
+  top: 78%;
+  width: 25%;
+}
+
+img.Group-1711 {
+  padding-bottom: 1em;
+  object-fit: contain;
+}
+
+.point-heading {
+  font-family: Montserrat;
+  font-size: 1.25vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.point-text {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.circle1-div {
+  position: absolute;
+  left: 40%;
+  top: 35%;
+}
+
+.circle1 {
+  width: 100%;
+  object-fit: contain;
+}
+
+.circle2-div {
+  position: absolute;
+  left: 50%;
+  top: 33%;
+}
+
+.circle2 {
+  object-fit: contain;
+}
+
+.circle3-div {
+  position: absolute;
+  top: 60%;
+  left: 55%;
+}
+
+.circle3 {
+  object-fit: contain;
+}
+
+.circle4-div {
+  position: absolute;
+  top: 90%;
+  left: 20%;
+}
+
+.circle4 {
+  width: 6vw;
+}
+
+.circle5-div {
+  position: absolute;
+  top: 97%;
+  left: 8%;
+  /* border: 1px solid black; */
+}
+
+.circle5 {
+  width: 10vw;
+}
+
+/*  //////////////////////////////////////////Section-Three-END/////////////////////////////////// --> */
+
+
+/*  //////////////////////////////////////////Section-Four-START/////////////////////////////////// --> */
+
+.section-4-container{
+
+  max-width: 1920px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  height: fit-content;
+  /* border: 6px dotted magenta;f */
+  
+  
+}
+.section-4-container .nav-bar{
+ 
+  height: auto;
+  padding-top: 15%;
+  align-items: center;
+  /* background: #0082e6; */
+  width: 80%;
+  margin: 0 auto;
+  /* border: 3px solid yellow; */
+  
+}
+
+.heading-our-classes{
+ 
+    font-family: Montserrat;
+    font-size: 2vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 1.25; */
+    letter-spacing: normal;
+    text-align: left;
+    color: #181818;
+    
+  
+}
+.Line-67 {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 10%;
+  height: 0;
+  /* border: solid 3px #335e33; */
+}
+
+ img.hidden-image{
+  opacity: 0;
+}
+
+.nav-bar > ul{
+  margin: 0 0 0 0 ;
+  width: auto;
+  float: right;
+  top:85%;
+  margin: 0;
+  /* border: dotted 1px green; */
+  
+  
+}
+.section-4-container .nav-bar > ul li{
+  display: inline-block;
+  
+  /* line-height: 80px; */
+  margin: 0 20px;
+  
+}
+
+.section-4-container .nav-bar > ul li a{
+  
+    
+    font-size: 1.2vw;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 2.5; */
+    letter-spacing: normal;
+    
+    color: #000;
+  
+}
+
+/* .bg-section4{
+  width: 100%;
+  border: 5px solid magenta;
+  margin: auto;
+
+} */
+
+
+/* img .left{
+width: 1px;
+
+}
+img .right{
+width: 100%;
+} */
+.section-4-main{
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+  /* border: 6px dotted black; */
+  /* border: 1px solid green; */
+}
+.section-4-under-heading-div{
+
+  
+  width: 80%;
+  margin: 0 auto;
+  /* border: 1px solid green; */
+ 
+  
+  
+   /* border:2px solid black;  */
+
+  
+}
+
+.section-4-under-heading-div >.section-4-under-heading {
+ 
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7a839e;
+  /* border:2px solid black; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Group-1724{
+position: absolute;
+left: 50%;
+  width: 50%;
+  z-index: 0;
+  
+  /* border: 2px solid green; */
+}
+
+
+img.Group-1486 {
+  width: 20%;
+  z-index: 0;
+  
+  margin: 76px 0 0 0;
+  object-fit: contain;
+  /* border:2px solid black; */
+}
+
+
+
+
+
+/*  //////////////////////////////////////////Section-Four-END/////////////////////////////////// --> */
+
+
+
+/*  //////////////////Section-Five-START///////////////////// --> */
+
+.section5-container {
+  position: absolute;
+  position: relative;
+
+  max-width: 1920px;
+
+  margin: 0 auto;
+  top: 100%;
+  height: 220vh;    /* This was 220 */
+  /* border: 2px dotted blue; */
+}
+
+.section5-container .section5-heading-div {
+  position: absolute;
+  margin-top: 5em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  /* border: 2px solid green; */
+}
+
+.Learn-how {
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 2vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+
+.line-div {
+  position: absolute;
+  margin-top: 9em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.section5-container .line-image {
+  object-fit: contain;
+  /* border: solid 5px #335e33; */
+}
+
+.under-heading-text-div {
+  position: absolute;
+  margin-top: 12em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.under-heading-text {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: center;
+  color: #7a839e;
+}
+
+.flex-container-section-5 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 20%;
+
+  /* display: flex;
+    flex-direction: row;
+    width: 33.33%;
+    float:left;
+    background:blue; */
+
+  /* display: grid;
+  grid-template-columns: repeat(3, 0fr); */
+}
+
+.row {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  object-fit: contain;
+}
+.col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  object-fit: contain;
+}
+
+.download-heading {
+  font-family: Montserrat;
+  margin-top: -20%;
+  font-size: 1.3vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+
+.creating-heading {
+  font-family: Montserrat;
+  margin-top: -20%;
+  font-size: 1.3vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #181818;
+}
+
+.adding-heading {
+  font-family: Montserrat;
+  margin-top: -20%;
+  font-size: 1.3vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+
+.Line-69 {
+  width: 100%;
+  height: 0;
+  margin: 19.5px 0 0 0.5px;
+  opacity: 0.9;
+  border: solid 1px #707070;
+}
+
+.section5-flex-text {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7a839e;
+}
+.bgimagediv {
+  position: absolute;
+  top: 150%;
+  max-width: 1920px;
+  width: 100%;
+}
+.Path-3770 {
+  width: 100%;
+  object-fit: contain;
+  /* transform: rotate(180deg); */
+  background-image: linear-gradient(to bottom, #f4f5fa, #fff);
+
+  /* max-width: 1920px;
+  width: 100%;
+  height: fit-content;
+  transform: rotate(360deg);
+  background-image: linear-gradient(to bottom, rgb(242, 240, 240), #f4f5fa); */
+}
+/*  //////////////////Section-Five-END///////////////////// --> */
+
+/*  //////////////////Section-Six-START///////////////////// --> */
+
+.section-six-container {
+  position: absolute;
+  position: relative;
+  margin: 0 auto;
+  margin-top: -10%;
+  padding-top:20% ;
+  height: 200vh;  /* this was 200vh */
+  /* border: 1px solid green; */
+}
+
+.section-six-heading-div {
+  position: absolute;
+  margin-top: 1em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  /* border: 1px solid green; */
+}
+
+.line-div-how-to {
+  position: absolute;
+  margin-top: 4em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  /* border: 1px solid green; */
+}
+
+.how-to-heading {
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 2vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+
+.section6-container .line-image {
+  object-fit: contain;
+  /* border: solid 5px #335e33; */
+}
+
+.under-heading-how-to-text-div {
+  position: absolute;
+  margin-top: 6em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  /* border: 1px solid green; */
+}
+
+.under-heading-text {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: center;
+  color: #7a839e;
+}
+
+.large-video-div {
+  position: absolute;
+  margin-top: 10em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+.Group-1727 {
+  width: 100%;
+  object-fit: contain;
+}
+.Rectangle-DIV {
+  position: absolute;
+  position: relative;
+
+  max-width: 1920px;
+  width: 80%;
+  top: 70%;
+
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 2px solid red; */
+}
+
+img.Rectangle-328 {
+  width: 100%;
+  /* object-fit: contain; */
+  border-radius: 0em;
+  box-shadow: 0 0 0em 0 rgba(42, 107, 66, 0.2);
+  background-color: #fff;
+}
+
+.mobile-image {
+  position: absolute;
+  width: 30%;
+  top: 4em;
+  left: 20%;
+}
+
+.app-image {
+  width: 100%;
+}
+
+.rec-heading-div {
+  position: absolute;
+  top: 30%;
+  width: 30%;
+  left: 50%;
+}
+
+.rec-heading {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+
+.image-playstore-second {
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  width: 20%;
+}
+.image-appstore-second {
+  position: absolute;
+  left: 55%;
+  top: 65%;
+  width: 20%;
+}
+.Group-1713 {
+  position: absolute;
+  right: 100%;
+  top: 30em;
+  width: 20%;
+}
+.elipse85 {
+  position: absolute;
+  right: 10%;
+  top: 30em;
+  width: 10%;
+}
+
+/*  //////////////////Section-Six-END///////////////////// --> */
+
+.footer-image {
+  
+  width: 80%;
+  left: 0;
+  right: 0;
+ margin-left: auto;
+ margin-right: auto;
+  
+}
+.Group-1715 {
+  width: 100%;
+}
+
+#footer {
+  width: 100%;
+  height: 15vh;
+  
+  margin-top: 30%;
+  align-content: center;
+  padding-top: 5%;
+  /* padding-left: 10%; */
+  /* padding-left: 4em; */
+  /* border: 1px solid green; */
+}
+
+
+
+.footer-logo {
+  width: 10%;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+#footer ul {
+  float: right;
+  margin-right: 10vw;
+  align-items: center;
+  vertical-align: middle;
+  /* border: 1px solid green; */
+}
+
+#footer ul li {
+  display: inline-block;
+  padding-top: 10%;
+  margin: 0 3em 0em 0em;
+}
+
+#footer ul li a {
+  font-family: Montserrat;
+  font-size: 1vw;
+
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2e2d35;
+  border-radius: 5px;
+}
+a:hover {
+  background: #adb8c0;
+  border-radius: 5px ;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+/*    
+  
+                                    THIS IS FOR THE SECOND PART , FLEX USED HERE
+  
+  */
+
+@media screen and (max-width: 1366px) {
+  body {
+    max-width: 1366px;
+    width: 100%;
+  }
+
+  #main-container #section-text {
+    top: 5em;
+    left: 5%;
+    /* border: 1px solid green; */
+  }
+
+  #sectiontexttwodiv {
+    top: 15em;
+  }
+
+  #main-container #playstoresdiv {
+    top: 35em;
+  }
+
+  .card-inside-container {
+    margin-top:-25%;
+  
+  
+  
+  
+  }
+
+  .section-six-container {
+    
+    margin-top: -10%;
+  
+  }
+
+
+  .carousel-controls .control {
+    position: absolute;
+    cursor: pointer;
+    top: 0%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-600%);
+  }
+
+  
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    max-width: 1024px;
+    width: 100%;
+  }
+
+  #main-container #section-text {
+    top: 3em;
+  }
+
+  #sectiontexttwodiv {
+    top: 10em;
+  }
+
+  #main-container #playstoresdiv {
+    top: 20em;
+  }
+  /*  //////////////////////////////////////////Section-One-END/////////////////////////////////// --> */
+
+  .section-two-col1 img.left-second-image {
+    width: 70%;
+    left: 20%;
+  }
+
+  .How-Thele-wala-works {
+    padding-top: 1.5em;
+  }
+
+  .Line-4 {
+    width: 5em;
+
+    margin: 3em 0em 0em 2em;
+  }
+
+  #lorem-small-div {
+    position: absolute;
+    top: 30%;
+    left: 1%;
+  }
+  .lorem-small {
+    margin: 2.22em 0em 0em 0em;
+
+    font-size: 1vw;
+
+    line-height: 1;
+  }
+
+  .install-text {
+    font-size: 1.2vw;
+  }
+
+  .follow-text {
+    font-size: 1.2vw;
+  }
+
+  .decide-text {
+    font-size: 1.2vw;
+  }
+
+
+  /*  //////////////////////////////////////////Section-Two-END/////////////////////////////////// --> */
+
+
+
+  .Rectangle-5 {
+   
+    margin: 5em 7.5% 0 7.5%;
+  
+  }
+  .Rectangle-5 .heading-why-thele-wala-div {
+    top: -3%;
+   
+  }
+
+  .Rectangle-5 .food-details-div {
+    width: 40%;
+  }
+
+  .Group-1710-heading {
+ 
+    font-size: 2vw;
+    
+  }
+  
+  .Group-1710-text {
+    font-size: 1.2vw;
+    
+  }
+  
+  .khata-heading {
+    
+    font-size: 2vw;
+    
+  }
+  
+  .khata-text {
+    
+    font-size: 1.2vw;
+    
+  }
+  
+  .multiple-heading {
+    
+    font-size: 2vw;
+    
+  }
+  
+  .multiple-text {
+    
+    font-size: 1.2vw;
+    
+  }
+  
+  
+  .accounting-heading {
+   
+    font-size: 2vw;
+    
+  }
+  
+  .accounting-text {
+    
+    font-size: 1.2vw;
+    
+  }
+  
+  
+  
+  .online-heading {
+    
+    font-size: 2vw;
+    
+  }
+  
+  .online-text {
+   
+    font-size: 1.2vw;
+   
+  }
+  
+  
+  .point-heading {
+    
+    font-size: 2vw;
+    
+  }
+  
+  .point-text {
+    
+    font-size: 1.2vw;
+    
+  }
+/*  //////////////////////////////////////////Section-Three-END/////////////////////////////////// --> */
+
+
+
+
+/*  //////////////////Section-Five-START///////////////////// --> */
+
+.section5-container {
+  
+  
+  height: 80vh;    /* This was 220 */
+  /* border: 2px dotted blue; */
+
+  margin-top: 4em;
+
+  
+}
+
+.section5-container .section5-heading-div {
+  
+  margin-top: 4em;
+
+  /* border: 2px solid green; */
+}
+
+
+
+ 
+
+
+
+.Learn-how {
+  font-size: 3vw;
+  
+}
+
+.line-div {
+  margin-top: 6em;
+
+}
+.under-heading-text-div {
+ 
+  margin-top: 9em;
+  width: 70%;
+}
+
+
+
+.under-heading-text {
+  
+  font-size: 1.3vw;
+  
+}
+
+
+.card-inside-container {
+  margin-top:-30%;
+  
+}
+
+
+
+
+
+
+/*  //////////////////Section-Six-START///////////////////// --> */
+
+.section-six-container {
+ 
+  height: 80vh;
+  /* border: 1px solid green; */
+}
+
+.section-six-heading-div {
+  
+  margin-top: 1em;
+ 
+}
+
+
+.Rectangle-DIV {
+ 
+  top: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    max-width: 960px;
+    width: 100%;
+  }
+
+  #main-container #section-text {
+    top: 3em;
+  }
+
+  #sectiontexttwodiv {
+    top: 10em;
+  }
+
+  #main-container #playstoresdiv {
+    top: 20em;
+  }
+
+
+
+
+
+
+
+
+  .section-six-container {
+    
+    margin-top: 0%;
+  
+  }
+  
+
+
+  
+
+
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 768px;
+    width: 100%;
+  }
+
+  #main-container {
+    max-width: 768px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+  
+  #main-container #section-one-bg {
+    max-width: 768px;
+    width: 100%;
+  }
+  
+  /*  //////////////////////////////////////////Section-One-START/////////////////////////////////// --> */
+  
+  #main-container #section-text {
+    position: absolute;
+    height: auto;
+    width: 50%;
+    top: 3em;
+    left: 5%;
+    /* border: 1px solid green; */
+  }
+  .Thelewala-is-serving-fresh {
+    font-size: 4vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2e2d35;
+  }
+  
+  #sectiontexttwodiv {
+    position: absolute;
+    width: 45%;
+    top: 10em;
+    left: 5%;
+  }
+  .sectiontexttwo {
+    font-size: 2vw;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2e2d35;
+  }
+  
+  #main-container #playstoresdiv {
+    display: flex;
+    position: absolute;
+    align-items: center;
+  
+    top: 20em;
+    width: 45vw;
+    left: 7%;
+    justify-content: center;
+    justify-content: space-between;
+    /* border:2px solid black; */
+  }
+  #or {
+    align-items: center;
+    font-size: 2vw;
+  }
+  .image-playstore {
+    width: 15vw;
+    height: 7.1em;
+    /* padding: 0 1%; */
+    margin: 0;
+    object-fit: contain;
+  }
+  
+  .image-appstore {
+    width: 15vw;
+    /* padding: 0 1%; */
+    height: 7.1em;
+    margin: 0;
+    object-fit: contain;
+  }
+  
+  /*  //////////////////////////////////////////Section-One-END/////////////////////////////////// --> */
+  
+  /*  //////////////////////////////////////////Section-Two-START/////////////////////////////////// --> */
+  
+  
+
+
+  /*  //////////////////////////////////////////Section-Two-COL1-START/////////////////////////////////// --> */
+
+.section-two-col1 {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+}
+.section-two-col1 img.left-image-full {
+  width: 100%;
+  top: 0;
+  left: -10%;
+}
+
+.section-two-col1 img.left-second-image {
+  width: 60%;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+/*  //////////////////////////////////////////Section-Two-COL1-END/////////////////////////////////// --> */
+
+/*  //////////////////////////////////////////Section-Two-COL2-START/////////////////////////////////// --> */
+.section-two-col2 {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+}
+
+.How-Thele-wala-works {
+  position: absolute;
+  margin-top: 30%;
+  width: 15em;
+  font-family: Montserrat;
+  font-size: 3vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+.lorem-small br{
+  display: none;
+}
+
+.Line-4 {
+  position: absolute;
+  top: 18%;
+  width: 10em;
+  height: auto;
+  margin: 4em 0em 0em 4em;
+
+  object-fit: contain;
+}
+
+#lorem-small-div {
+  position: absolute;
+  top: 30%;
+  left: 1%;
+}
+.lorem-small {
+  width: 7%;
+  height: auto;
+  margin: 2.22em 0em 0em 0em;
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7a839e;
+}
+
+.Group-1720 {
+  position: absolute;
+  top: 35%;
+  left: 1%;
+  width: 15%;
+  height: auto;
+  margin: 4.65em 3em 6.82em 0em;
+  object-fit: contain;
+}
+#create-div {
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  /* border: black 2px solid; */
+}
+.Create-text {
+  width: 30em;
+  height: 3em;
+  margin: 4.44em 2.26em 2.7em 1em;
+  font-size: 1.5vw;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+#install-div {
+  position: absolute;
+  top: 49%;
+  left: 20%;
+  /* border: black 2px solid; */
+}
+.install-text {
+  width: 60em;
+  /* height: 7.89em; */
+
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7a839e;
+}
+
+.Group-1721 {
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  width: 15%;
+  height: auto;
+  margin: 4.65em 3em 6.82em 0em;
+  object-fit: contain;
+  /* border: 0.1rem solid black; */
+}
+#what-div {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  /* border: black 2px solid; */
+}
+.what-text {
+  width: 30em;
+  height: 3em;
+  margin: 4.44em 2.26em 2.7em 1em;
+  font-size: 1.5vw;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+#follow-div {
+  position: absolute;
+  top: 63%;
+  left: 20%;
+  /* border: black 2px solid; */
+}
+.follow-text {
+  width: 60em;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7a839e;
+}
+
+.Group-1722 {
+  position: absolute;
+  top: 68%;
+  left: 1%;
+  width: 15%;
+  margin: 4.65em 3em 6.82em 0em;
+  object-fit: contain;
+  /* border: 0.1rem solid black; */
+}
+#let-div {
+  position: absolute;
+  top: 78%;
+  left: 15%;
+  /* border: black 2px solid; */
+}
+.let-text {
+  width: 34em;
+  height: 3em;
+  font-size: 1.5vw;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+#decide-div {
+  position: absolute;
+  top: 81%;
+  left: 20%;
+  /* border: black 2px solid; */
+}
+.decide-text {
+  width: 60em;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7a839e;
+}
+
+/*//////////////////////////////////////////Section-Two-COL2-END//////////////////////////////////*/
+
+/*  //////////////////////////////////////////Section-Three-START/////////////////////////////////// --> */
+
+
+
+.Rectangle-5 {
+  position: relative;
+  width: 86%;
+  min-height: 2000px;
+  /* min-height: 1680px; */
+  /* min-height: 100vh; */
+  margin: 15em 7.5% 0 7.5%;
+
+  border-radius: 38px;
+  box-shadow: 0 0 40px 0 rgba(49, 169, 93, 0.2);
+  background-color: #fff;
+}
+
+.Rectangle-5 .heading-why-thele-wala-div {
+  position: absolute;
+  top: -10%;
+  width: 33%;
+  left: 35%;
+  text-align: center;
+  /* border:3px dotted magenta; */
+}
+.heading-whythelewala {
+  font-family: Montserrat;
+  font-size: 3vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #2e2d35;
+}
+
+.Rectangle-5 .Group-1723-div {
+  position: absolute;
+  top: -20em;
+  left: 80%;
+  /* align-items: right; */
+}
+
+.Group-1723 {
+  width: 100%;
+}
+
+.Rectangle-5 .path-div {
+  position: absolute;
+  width: 50%;
+  top: 35%;
+  right: -7%;
+  /* border: 1px solid green; */
+}
+.Path-3888 {
+  width: 100%;
+}
+
+.Rectangle-5 .food-details-div {
+  position: absolute;
+  /* border: 1px dotted green; */
+  width: 30%;
+  left: 62%;
+  top: 30%;
+}
+img.food-Details {
+  width: 100%;
+  object-fit: contain;
+  /* box-shadow: 0 3px 50px 0 rgba(0, 0, 0, 0.16); */
+}
+
+/* /////////////////////////////////////Section-Three-Icons with Heading and Text////////////////////////////////  */
+
+.Group-1710-div {
+  position: absolute;
+  /* min-width: em; */
+  top: 5%;
+  left: 43%;
+  width: 25%;
+}
+
+img.Group-1710 {
+  object-fit: contain;
+  padding-bottom: 1em;
+}
+
+.Group-1710-heading {
+  font-family: Montserrat;
+  font-size: 1.25vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.Group-1710-text {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.Group-15-div {
+  position: absolute;
+  left: 28.8%;
+  top: 15%;
+  width: 25%;
+}
+
+img.Group-15 {
+  padding-bottom: 1em;
+
+  object-fit: contain;
+}
+
+.khata-heading {
+  font-family: Montserrat;
+  font-size: 1.25vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.khata-text {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.Group-16-div {
+  position: absolute;
+  left: 7%;
+  top: 27%;
+  width: 25%;
+}
+
+img.Group-16 {
+  padding-bottom: 1em;
+  object-fit: contain;
+}
+
+.multiple-heading {
+  font-family: Montserrat;
+  font-size: 1.25vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.multiple-text {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.-Accounting-Business-Calculate-Finance-Math-div {
+  position: absolute;
+  left: 7%;
+  top: 45%;
+  width: 25%;
+}
+
+img.-Accounting-Business-Calculate-Finance-Math {
+  padding-bottom: 1em;
+  object-fit: contain;
+}
+
+.accounting-heading {
+  font-family: Montserrat;
+  font-size: 1.25vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.accounting-text {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.Layer-3-div {
+  position: absolute;
+  left: 20%;
+  top: 64%;
+  width: 25%;
+}
+
+img.Layer-3 {
+  padding-bottom: 1em;
+  object-fit: contain;
+}
+
+.online-heading {
+  font-family: Montserrat;
+  font-size: 1.25vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.online-text {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.Group-1711-div {
+  position: absolute;
+  left: 35%;
+  top: 78%;
+  width: 25%;
+}
+
+img.Group-1711 {
+  padding-bottom: 1em;
+  object-fit: contain;
+}
+
+.point-heading {
+  font-family: Montserrat;
+  font-size: 1.25vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.point-text {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.circle1-div {
+  position: absolute;
+  left: 40%;
+  top: 35%;
+}
+
+.circle1 {
+  width: 100%;
+  object-fit: contain;
+}
+
+.circle2-div {
+  position: absolute;
+  left: 50%;
+  top: 33%;
+}
+
+.circle2 {
+  object-fit: contain;
+}
+
+.circle3-div {
+  position: absolute;
+  top: 60%;
+  left: 55%;
+}
+
+.circle3 {
+  object-fit: contain;
+}
+
+.circle4-div {
+  position: absolute;
+  top: 90%;
+  left: 20%;
+}
+
+.circle4 {
+  width: 6vw;
+}
+
+.circle5-div {
+  position: absolute;
+  top: 97%;
+  left: 8%;
+  /* border: 1px solid black; */
+}
+
+.circle5 {
+  width: 10vw;
+}
+
+/*  //////////////////////////////////////////Section-Three-END/////////////////////////////////// --> */
+
+
+/*  //////////////////////////////////////////Section-Four-START/////////////////////////////////// --> */
+
+
+.carousel-controls .control {
+  position: absolute;
+  cursor: pointer;
+  top: 0%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-555%);
+}
+
+.prev {
+  
+  right:20%;
+  
+  display: block;
+}
+
+
+.next {
+ right: 6%;
+}
+/*  //////////////////Section-Five-START///////////////////// --> */
+/*  //////////////////Section-Five-START///////////////////// --> */
+
+.section5-container {
+  
+  
+  height: 80vh;    /* This was 220 */
+  
+}
+
+.section5-container .section5-heading-div {
+  
+  margin-top: 0em;
+
+  /* border: 2px solid green; */
+}
+
+
+
+
+
+.line-div {
+  
+  margin-top: 2em;
+  
+}
+
+.section5-container .line-image {
+  object-fit: contain;
+  /* border: solid 5px #335e33; */
+}
+
+
+
+
+
+
+ 
+
+
+
+
+.under-heading-text-div {
+ 
+  margin-top: 4em;
+  width: 70%;
+}
+
+
+
+.under-heading-text {
+  
+  font-size: 1.3vw;
+  
+}
+
+
+.card-inside-container {
+  margin-top:-30%;
+  
+}
+
+
+
+
+/*  //////////////////Section-Six-START///////////////////// --> */
+
+.section-six-container {
+ 
+  height: 100vh;
+  /* border: 1px solid green; */
+}
+
+.section-six-heading-div {
+  
+  margin-top: 0em;
+ 
+}
+
+
+.Rectangle-DIV {
+ 
+  top: 55%;
+}
+
+
+
+
+
+/*  //////////////////Section-Six-END///////////////////// --> */
+
+
+
+
+#footer {
+  
+  height: 10vh;
+  
+  margin-top: 5%;
+  
+}
+
+
+
+.footer-logo {
+ 
+  margin-top: 1px;
+}
+
+
+
+#footer ul li {
+  
+  padding-top: 3%;
+  
+}
+
+
+
+
+}
+
+@media  screen and (max-width:414px) {
+  
+  body {
+    max-width: 414px;
+    width: 100%;
+  }
+
+
+  nav .img {
+    width: 100%;
+    
+  }
+  
+  nav {
+    margin: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    /* padding-top: 3rem; */
+  }
+  .Thelay-Waala-Logo-Variation-11-2 {
+    width: 10%;
+    min-width: 120px;
+    padding-right: 50px;
+    
+  }
+
+
+
+ 
+  
+  nav ul li {
+    display:flex;
+    flex-direction: column;
+    padding-top: 10%;
+    margin: 0 0em 0em 0em;
+  }
+  
+  nav ul li a {
+  
+    font-size: 14px;
+  }
+
+
+
+  /*MAIN-CONTAINER-STARTS-HERE*/
+
+
+
+
+  /*  //////////////////////////////////////////Section-One-START/////////////////////////////////// --> */
+
+#main-container #section-text {
+  position: absolute;
+  height: auto;
+  width: 50%;
+  top: 1em;
+  left: 5%;
+  /* border: 1px solid green; */
+}
+.Thelewala-is-serving-fresh {
+  font-size: 3vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+#sectiontexttwodiv {
+  position: absolute;
+  width: 45%;
+  top: 5em;
+  left: 5%;
+}
+.sectiontexttwo {
+  font-size: 1.5vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+#main-container #playstoresdiv {
+  display: flex;
+  position: absolute;
+  align-items: center;
+
+  top: 10em;
+  /* border:2px solid black; */
+}
+#or {
+  font-size: 8px;
+  margin-top: 15px;
+
+}
+
+
+/*  //////////////////////////////////////////Section-One-END/////////////////////////////////// --> */
+
+/*  //////////////////////////////////////////Section-Two-START/////////////////////////////////// --> */
+
+
+
+
+.section-two-div {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  margin-top: 0rem;
+  position: relative;
+}
+
+/*  //////////////////////////////////////////Section-Two-COL1-START/////////////////////////////////// --> */
+
+.section-two-col1 {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+}
+.section-two-col1 img.left-image-full {
+  width: 100%;
+  top: 0;
+  left: -10%;
+}
+
+.section-two-col1 img.left-second-image {
+  width: 75%;
+  position: absolute;
+  top: 15%;
+  left: 12.5%;
+}
+
+/*  //////////////////////////////////////////Section-Two-COL1-END/////////////////////////////////// --> */
+
+/*  //////////////////////////////////////////Section-Two-COL2-START/////////////////////////////////// --> */
+.section-two-col2 {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+  position: relative;
+}
+
+.How-Thele-wala-works {
+  position: absolute;
+  margin-top: 20%;
+  width: 100%;
+  
+  
+  font-size: 5vw;
+  
+  
+  text-align: center;
+  
+}
+
+.Line-4 {
+  /* position: absolute; */
+  top: 18%;
+  width: 50%;
+  left: 10%;
+  height: 10px;
+  align-items: center;
+
+  object-fit: contain;
+}
+
+#lorem-small-div {
+  position: absolute;
+  top: 35%;
+  /* left: 1%; */
+  padding: 0 5px;
+}
+.lorem-small br{
+  display: none;
+}
+.lorem-small {
+  width: 100%;
+  height: 10px;
+  margin: 2.22em 0em 0em 0em;
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.2;
+}
+
+.Group-1720 {
+  position: absolute;
+  top: 45%;
+  left: 1%;
+  width: 15%;
+  height: auto;
+  margin: 4.65em 3em 6.82em 0em;
+  object-fit: contain;
+}
+#create-div {
+  position: absolute;
+  top: 58%;
+  left: 20%;
+  /* border: black 2px solid; */
+}
+.Create-text {
+  width: 30em;
+  height: 3em;
+  margin: 4.44em 2.26em 2.7em 1em;
+  font-size: 2vw;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+#install-div {
+  position: absolute;
+  top: 60%;
+  left: 22%;
+  /* border: black 2px solid; */
+}
+.install-text {
+  width: 100%;
+  /* height: 7.89em; */
+
+  font-size: 1.5vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7a839e;
+}
+
+.Group-1721 {
+  position: absolute;
+  top: 62%;
+  left: 1%;
+  width: 15%;
+  height: auto;
+  margin: 4.65em 3em 6.82em 0em;
+  object-fit: contain;
+  /* border: 0.1rem solid black; */
+}
+#what-div {
+  position: absolute;
+  top: 76%;
+  left: 20%;
+  /* border: black 2px solid; */
+}
+.what-text {
+  width: 30em;
+  height: 3em;
+  margin: 4.44em 2.26em 2.7em 1em;
+  font-size: 2vw;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+#follow-div {
+  position: absolute;
+  top: 80%;
+  left: 22%;
+  /* border: black 2px solid; */
+}
+.follow-text {
+  width: 60em;
+  font-size: 1.4vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7a839e;
+}
+
+.Group-1722 {
+  position: absolute;
+  top: 79%;
+  left: 1%;
+  width: 15%;
+  margin: 4.65em 3em 6.82em 0em;
+  object-fit: contain;
+  /* border: 0.1rem solid black; */
+}
+#let-div {
+  position: absolute;
+  top: 93%;
+  left: 20%;
+  /* border: black 2px solid; */
+}
+.let-text {
+  width: 34em;
+  height: 3em;
+  font-size: 2vw;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+#decide-div {
+  position: absolute;
+  top: 96%;
+  left: 22%;
+  /* border: black 2px solid; */
+}
+.decide-text {
+  width: 60em;
+  font-size: 1.4vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7a839e;
+}
+
+/*//////////////////////////////////////////Section-Two-COL2-END//////////////////////////////////*/
+
+/*  //////////////////////////////////////////Section-Three-START/////////////////////////////////// --> */
+
+
+
+.Rectangle-5 {
+  position: relative;
+  width: 86%;
+  min-height: 2700px;
+  /* min-height: 1680px; */
+  /* min-height: 100vh; */
+  margin: 15em 7.5% 0 7.5%;
+
+  border-radius: 38px;
+  box-shadow: 0 0 40px 0 rgba(49, 169, 93, 0.2);
+  background-color: #fff;
+}
+
+.Rectangle-5 .heading-why-thele-wala-div {
+  position: absolute;
+  top: -5%;
+  width: 33%;
+  left: 35%;
+  text-align: center;
+  /* border:3px dotted magenta; */
+}
+.heading-whythelewala {
+  font-family: Montserrat;
+  font-size: 3vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #2e2d35;
+}
+
+.Rectangle-5 .Group-1723-div {
+  position: absolute;
+  top: -12em;
+  left: 80%;
+  /* align-items: right; */
+}
+
+.Group-1723 {
+  width: 100%;
+}
+
+.Rectangle-5 .path-div {
+  position: absolute;
+  width: 50%;
+  top: 35%;
+  right: -8%;
+  
+  /* border: 1px solid green; */
+}
+.Path-3888 {
+  width: 100%;
+  transform: rotate(90deg);
+}
+
+.Rectangle-5 .food-details-div {
+  position: absolute;
+  /* border: 1px dotted green; */
+  width: 100%;
+  left: 0%;
+  top: 30%;
+}
+img.food-Details {
+  width: 100%;
+  object-fit: contain;
+  /* box-shadow: 0 3px 50px 0 rgba(0, 0, 0, 0.16); */
+}
+
+/* /////////////////////////////////////Section-Three-Icons with Heading and Text////////////////////////////////  */
+
+.Group-1710-div {
+  /* min-width: em; */
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  width: 75%;
+  
+}
+
+img.Group-1710 {
+  object-fit: contain;
+  padding-bottom: 1em;
+}
+
+.Group-1710-heading {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.Group-1710-text {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.Group-15-div {
+  position: absolute;
+  left: 15%;
+  top: 16%;
+  width: 75%;
+  /* border: 2px solid black; */
+}
+
+img.Group-15 {
+  padding-bottom: 1em;
+
+  object-fit: contain;
+}
+
+.khata-heading {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.khata-text {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.Group-16-div {
+  position: absolute;
+  left: 15%;
+  top: 60%;
+  width: 75%;
+}
+
+img.Group-16 {
+  padding-bottom: 1em;
+  object-fit: contain;
+}
+
+.multiple-heading {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.multiple-text {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.-Accounting-Business-Calculate-Finance-Math-div {
+  position: absolute;
+  left: 15%;
+  top: 70%;
+  width: 75%;
+}
+
+img.-Accounting-Business-Calculate-Finance-Math {
+  padding-bottom: 1em;
+  object-fit: contain;
+}
+
+.accounting-heading {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.accounting-text {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.Layer-3-div {
+  position: absolute;
+  left: 15%;
+  top: 80%;
+  width: 75%;
+}
+
+img.Layer-3 {
+  padding-bottom: 1em;
+  object-fit: contain;
+}
+
+.online-heading {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.online-text {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.Group-1711-div {
+  position: absolute;
+  left: 15%;
+  top: 89%;
+  width: 75%;
+}
+
+img.Group-1711 {
+  padding-bottom: 1em;
+  object-fit: contain;
+}
+
+.point-heading {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2d35;
+}
+
+.point-text {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #757575;
+}
+
+.circle1-div {
+  position: absolute;
+  left: 60%;
+  top: 25%;
+}
+
+.circle1 {
+  width: 100%;
+  object-fit: contain;
+}
+
+.circle2-div {
+  position: absolute;
+  left: 30%;
+  top: 27%;
+}
+
+.circle2 {
+  object-fit: contain;
+}
+
+.circle3-div {
+  position: absolute;
+  top: 55%;
+  left: 55%;
+}
+
+.circle3 {
+  object-fit: contain;
+}
+
+.circle4-div {
+  position: absolute;
+  top: 100%;
+  left: 20%;
+}
+
+.circle4 {
+  width: 6vw;
+}
+
+.circle5-div {
+  position: absolute;
+  top: 97%;
+  left: 8%;
+  /* border: 1px solid black; */
+}
+
+.circle5 {
+  width: 10vw;
+}
+
+/*  //////////////////////////////////////////Section-Three-END/////////////////////////////////// --> */
+
+
+/*  //////////////////////////////////////////Section-Four-START/////////////////////////////////// --> */
+
+
+.section-4-container{
+
+  max-width: 414px;
+  width: 100%;
+ 
+  /* border: 6px dotted magenta; */
+  
+}
+
+
+.carousel-controls .control {
+  position: absolute;
+  cursor: pointer;
+  top: 0%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-500%);
+}
+
+
+.section-4-container .nav-bar{
+
+  height: auto;
+  padding-bottom: 0%;
+  align-items: center;
+  /* background: #0082e6; */
+  width: 80%;
+  margin: 0 auto;
+  /* border: 3px solid yellow; */
+}
+
+.heading-our-classes{
+ 
+    font-family: Montserrat;
+    font-size: 3vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 1.25; */
+    letter-spacing: normal;
+    text-align: left;
+    color: #181818;
+    
+  
+}
+.Line-67 {
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 10%;
+  height: 0;
+  border: solid 3px #335e33;
+}
+
+ img.hidden-image{
+  opacity: 0;
+}
+
+.nav-bar > ul{
+  position: absolute;
+  margin: 0 0 0 0 ;
+  width: 60%;
+  float: right;
+  top:9.9%;
+  left:40%;
+  
+  /* border: dotted 1px green; */
+  
+}
+.section-4-container .nav-bar > ul li{
+  display: inline-block;
+  
+  /* line-height: 80px; */
+  margin: 0 5px;
+  
+}
+
+.section-4-container .nav-bar > ul li a{
+  
+    
+    font-size: 2vw;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 2.5; */
+    letter-spacing: normal;
+    
+    color: #000;
+  
+}
+
+.carousel-controls .control {
+  position: absolute;
+  cursor: pointer;
+  top: 3%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-700%);
+}
+
+.prev {
+  
+  right:15%;
+  
+  display: block;
+}
+.prev img.left{
+  width: 5vw;
+  
+}
+
+.next {
+ right: 5%;
+}
+
+.next img.right{
+  width: 5vw;
+}
+
+/* .bg-section4{
+  width: 100%;
+  border: 5px solid magenta;
+  margin: auto;
+
+} */
+
+
+/* img .left{
+width: 1px;
+
+}
+img .right{
+width: 100%;
+} */
+.section-4-main{
+  max-width: 414px;
+  width: 100%;
+  height: auto;
+  /* border: 6px dotted black; */
+}
+.section-4-under-heading-div{
+  z-index: 1;
+
+  
+  width: 80%;
+  margin: 0 auto;
+ 
+  
+  
+   /* border:2px solid black;  */
+
+  
+}
+
+.section-4-under-heading-div >.section-4-under-heading {
+ 
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7a839e;
+  /* border:2px solid black; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Group-1724{
+display: none;
+  /* border: 2px solid green; */
+}
+
+
+img.Group-1486 {
+  width: 20%;
+  z-index: 0;
+  
+  margin: 50px 0 0 0;
+  object-fit: contain;
+  /* border:2px solid black; */
+}
+
+
+
+.card-inside-container {
+  margin-top: 0%;
+  padding-bottom: 100px;
+  width: 100%;
+  height: auto;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+/*  //////////////////////////////////////////Section-Four-END/////////////////////////////////// --> */
+
+
+
+/*  //////////////////Section-Five-START///////////////////// --> */
+
+.section5-container {
+  position: absolute;
+  position: relative;
+
+  max-width: 414px;
+
+  margin: 0 auto;
+  top: 100%;
+  height: 150vh;
+  /* border: 2px dotted blue; */
+}
+
+.section5-container .section5-heading-div {
+  position: absolute;
+  margin-top: 2em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  /* border: 2px solid green; */
+}
+
+.Learn-how {
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 3vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+
+.line-div {
+  position: absolute;
+  margin-top: 3em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.section5-container .line-image {
+  object-fit: contain;
+  /* border: solid 5px #335e33; */
+}
+
+.under-heading-text-div {
+  position: absolute;
+  margin-top: 5em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.under-heading-text {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: center;
+  color: #7a839e;
+}
+
+.flex-container-section-5 {
+  position: absolute;
+  height: auto;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 50%;
+
+ 
+}
+
+.row {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  object-fit: contain;
+  /* border: 2px solid black; */
+}
+.col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  /* height: 100%; */
+  object-fit: contain;
+  /* border: 2px dotted magenta; */
+}
+
+.download-heading {
+  font-family: Montserrat;
+  margin-top: -10%;
+  font-size: 8px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+
+.creating-heading {
+  font-family: Montserrat;
+  margin-top: -10%;
+  font-size: 8px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #181818;
+}
+
+.adding-heading {
+  font-family: Montserrat;
+  margin-top: -10%;
+  font-size: 8px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+
+.Line-69 {
+  width: 100%;
+  height: 0;
+  margin: 5px 0 0 0.5px;
+  opacity: 0.9;
+  border: solid 1px #707070;
+}
+
+.section5-flex-text {
+  font-family: Montserrat;
+  font-size: 8px;
+  font-weight: 10;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7a839e;
+}
+.bgimagediv {
+  position: absolute;
+  top: 150%;
+  max-width: 1920px;
+  width: 100%;
+}
+.Path-3770 {
+  width: 100%;
+  object-fit: contain;
+  /* transform: rotate(180deg); */
+  background-image: linear-gradient(to bottom, #f4f5fa, #fff);
+
+  /* max-width: 1920px;
+  width: 100%;
+  height: fit-content;
+  transform: rotate(360deg);
+  background-image: linear-gradient(to bottom, rgb(242, 240, 240), #f4f5fa); */
+}
+/*  //////////////////Section-Five-END///////////////////// --> */
+
+/*  //////////////////Section-Six-START///////////////////// --> */
+
+
+
+
+.section-six-container {
+  position: absolute;
+  position: relative;
+  margin: 0 auto;
+  margin-top: -140%;
+  padding-top:20% ;
+  height: 130vh;
+  /* border: 1px solid green; */
+}
+
+.section-six-heading-div {
+  position: absolute;
+  margin-top: 1em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.line-div-how-to {
+  position: absolute;
+  margin-top: 4em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.how-to-heading {
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 2vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+
+.section6-container .line-image {
+  object-fit: contain;
+  /* border: solid 5px #335e33; */
+}
+
+.under-heading-how-to-text-div {
+  position: absolute;
+  margin-top: 6em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.under-heading-text {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: center;
+  color: #7a839e;
+}
+
+.large-video-div {
+  position: absolute;
+  margin-top: 12em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+.Group-1727 {
+  width: 100%;
+  object-fit: contain;
+}
+.Rectangle-DIV {
+  position: absolute;
+  position: relative;
+
+  max-width: 414px;
+  width: 80%;
+  top: 50%;
+
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 2px solid red; */
+}
+
+img.Rectangle-328 {
+  width: 100%;
+  /* object-fit: contain; */
+  border-radius: 0em;
+  height: 250px;
+  box-shadow: 0 0 0em 0 rgba(42, 107, 66, 0.2);
+  background-color: #fff;
+}
+
+.mobile-image {
+  position: absolute;
+  width: 30%;
+  top: 3em;
+  left: 20%;
+}
+
+.app-image {
+  width: 100%;
+}
+
+.rec-heading-div {
+  position: absolute;
+  top: 20%;
+  width: 35%;
+  left: 55%;
+  /* border: 1px dotted magenta; */
+}
+
+.rec-heading {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+
+.image-playstore-second {
+  position: absolute;
+  left: 55%;
+  top: 40%;
+  width: 20%;
+}
+.image-appstore-second {
+  position: absolute;
+  left: 55%;
+  top: 55%;
+  width: 20%;
+}
+.Group-1713 {
+  position: absolute;
+  right: 100%;
+  top: 10em;
+  width: 20%;
+}
+.elipse85 {
+  position: absolute;
+  right: 50%;
+  top: 1em;
+  width: 10%;
+}
+
+
+
+
+/*  //////////////////Section-Six-END///////////////////// --> */
+
+.footer-image {
+  top:100%;
+  
+  width: 100%;
+  margin-left: 40px;
+  
+}
+.Group-1715 {
+  width: 80%;
+  margin-left: 0%;
+}
+
+#footer {
+  max-width: 414px;
+  width: 100%;
+  height: 30px;
+  
+  margin-top: -30%;
+  align-content: center;
+  /* padding-top: 50%; */
+  
+}
+
+
+
+.footer-logo {
+  width: 20%;
+  margin-left: 20px;
+  margin-top: 0px;
+
+}
+
+#footer ul {
+  float: right;
+  margin-right: 1vw;
+  align-items: center;
+  vertical-align: middle;
+}
+
+#footer ul li {
+  display: inline-block;
+  padding-top: 0%;
+  margin: 0em 1.5em 0em 0em;
+}
+
+#footer ul li a {
+  font-family: Montserrat;
+  font-size: 8px;
+
+  
+}
+
+
+}
+
+@media  screen and (max-width:375px){
+
+  body{
+    max-width: 375px;
+    /* border: solid 1px #335e33; */
+    overflow-x: hidden;
+  }
+
+
+
+/*  //////////////////Section-TWO-COL-2-START///////////////////// --> */
+
+  .Line-4 {
+    
+    top: 21%;
+    width: 10em;
+    
+    
+  }
+/*  //////////////////Section-Three-START///////////////////// --> */
+
+  .Rectangle-5 .path-div {
+    position: absolute;
+    width: 10%;
+    top: 35%;
+    right: 0%;
+    /* border: 1px solid green; */
+    /* border: 1px solid green; */
+  }
+  .Path-3888 {
+    width: 100%;
+  }
+  
+
+
+
+
+
+
+
+  /*  //////////////////Section-Six-START///////////////////// --> */
+
+
+
+
+.section-six-container {
+ 
+  margin-top: -220%;
+  padding-top:20% ;
+  height: 90vh;
+  /* border: 1px solid green; */
+}
+
+.section-six-heading-div {
+ 
+  margin-top: 1em;
+ 
+  /* border: solid 5px #335e33; */
+}
+
+.line-div-how-to {
+ 
+  margin-top: 4em;
+  
+  /* border: solid 5px #335e33; */
+}
+
+.how-to-heading {
+  
+  font-size: 2vw;
+  
+  line-height: 1.25;
+  
+}
+
+.section6-container .line-image {
+  object-fit: contain;
+  /* border: solid 5px #335e33; */
+}
+
+.under-heading-how-to-text-div {
+  
+  margin-top: 6em;
+  
+  width: 60%;
+  /* border: solid 5px #335e33; */
+}
+
+.under-heading-text {
+  
+  font-size: 1vw;
+  font-weight: 300;
+  
+  line-height: 1.19;
+  
+}
+
+.large-video-div {
+  
+  margin-top: 12em;
+ 
+  width: 75%;
+}
+.Group-1727 {
+  width: 100%;
+  
+  /* border: solid 5px #335e33; */
+}
+.Rectangle-DIV {
+  
+  max-width: 414px;
+  width: 80%;
+  top: 60%;
+
+  /* border: 2px solid red; */
+}
+
+img.Rectangle-328 {
+  width: 100%;
+  /* object-fit: contain; */
+  border-radius: 0em;
+  height: 250px;
+  box-shadow: 0 0 0em 0 rgba(42, 107, 66, 0.2);
+  background-color: #fff;
+}
+
+.mobile-image {
+  position: absolute;
+  width: 30%;
+  top: 3em;
+  left: 20%;
+}
+
+.app-image {
+  width: 100%;
+}
+
+.rec-heading-div {
+  position: absolute;
+  top: 20%;
+  width: 35%;
+  left: 55%;
+  /* border: 1px dotted magenta; */
+}
+
+.rec-heading {
+  font-family: Montserrat;
+  font-size: 2vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #181818;
+}
+
+.image-playstore-second {
+  position: absolute;
+  left: 55%;
+  top: 40%;
+  width: 20%;
+}
+.image-appstore-second {
+  position: absolute;
+  left: 55%;
+  top: 55%;
+  width: 20%;
+}
+.Group-1713 {
+  position: absolute;
+  right: 100%;
+  top: 10em;
+  width: 20%;
+}
+.elipse85 {
+  position: absolute;
+  right: 50%;
+  top: 1em;
+  width: 10%;
+}
+
+
+
+
+/*  //////////////////Section-Six-END///////////////////// --> */
+
+.footer-image {
+  top:100%;
+  
+  width: 100%;
+  margin-left: 40px;
+  
+}
+.Group-1715 {
+  width: 80%;
+  margin-left: 0%;
+}
+
+#footer {
+  max-width: 414px;
+  width: 100%;
+  height: 30px;
+  
+  margin-top: 0%;
+  align-content: center;
+  /* padding-top: 50%; */
+  
+}
+
+
+
+.footer-logo {
+  width: 20%;
+  margin-left: 12px;
+  margin-top: 0px;
+
+}
+
+#footer ul {
+  float: right;
+  margin-right: 0.8vw;
+  align-items: center;
+  vertical-align: middle;
+}
+
+#footer ul li {
+  display: inline-block;
+  padding-top: 0%;
+  margin: 0em 1em 0em 0em;
+}
+
+#footer ul li a {
+  font-family: Montserrat;
+  font-size: 8px;
+
+  
+}
+
+  
+}
